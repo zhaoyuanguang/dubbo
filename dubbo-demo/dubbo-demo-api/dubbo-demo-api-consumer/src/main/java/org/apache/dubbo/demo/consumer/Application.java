@@ -31,6 +31,7 @@ public class Application {
         } else {
             runWithBootstrap();
         }
+        System.out.println("this is a new line ");
     }
 
     private static boolean isClassic(String[] args) {
